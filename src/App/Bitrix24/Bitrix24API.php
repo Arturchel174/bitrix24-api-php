@@ -239,7 +239,10 @@ class Bitrix24API
      */
     public function fetchList(string $function, array $params = []): Generator
     {
-        $params['order']['ID'] = 'ASC';
+        if(!isset($params['order'])){
+            $params['order']['ID'] = 'ASC';
+        }
+        
         $params['filter']['>ID'] = 0;
         $params['start'] = -1;
 
