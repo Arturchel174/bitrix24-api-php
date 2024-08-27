@@ -1,5 +1,5 @@
 {
-    "name": "andrey-tech/bitrix24-api-php",
+    "name": "arturchel174/bitrix24-api-php",
     "description": "Обертка на PHP7+ для работы с API Битрикс24 с использованием механизма входящих вебхуков, троттлингом запросов и логированием в файл",
     "keywords": [ "bitrix", "bitrix24", "api", "api-wrapper", "throttling", "logging", "webhook" ],
     "homepage": "https://github.com/andrey-tech/bitrix24-api-php",
